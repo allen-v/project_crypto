@@ -1,0 +1,9 @@
+streamlit==1.22.0
+pandas==2.2.2
+plotly==5.24.1
+ccxt==4.3.65
+python-dotenv==0.19.2
+ratelimit==2.2.1
+ibis-framework[duckdb]==9.5.0
+asyncio==3.4.3
+aiohttp==3.8.4

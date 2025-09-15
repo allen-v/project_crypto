@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+.env
+
+# IDEs
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Database
+*.db
+*.db-journal
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# Project specific
+crypto_arbitrage.log
