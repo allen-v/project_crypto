@@ -1,7 +1,7 @@
 import ccxt.async_support as ccxt
 import logging
 import asyncio
-from rate_limit_checker import get_rate_limits
+from app.ingest_ws.rate_limit_checker import get_rate_limits
 import time
 
 # Setup logger

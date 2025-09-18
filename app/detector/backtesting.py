@@ -1,5 +1,5 @@
 import pandas as pd
-from arbitrage_detector import ArbitrageDetector
+from app.detector.core import ArbitrageDetector
 
 class Backtester:
     def __init__(self, data_processor, arbitrage_detector):

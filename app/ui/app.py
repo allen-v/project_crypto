@@ -7,11 +7,11 @@ import ccxt
 import logging
 
 # Import your project modules
-from data_fetching import DataFetcher
-from data_processing import DataProcessor
-from arbitrage_detector import ArbitrageDetector
-from exchange_setup import ExchangeSetup
-import config
+from app.ingest_ws.data_fetching import DataFetcher
+from app.ingest_ws.data_processing import DataProcessor
+from app.detector.core import ArbitrageDetector
+from app.ingest_ws.exchange_setup import ExchangeSetup
+from app.config import settings as config
 
 # Setup logging
 logging.basicConfig(level=logging.INFO)

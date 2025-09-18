@@ -10,11 +10,11 @@ rate limits of each exchange.
 import asyncio
 import logging
 from datetime import datetime
-from exchange_setup import ExchangeSetup
-from data_fetching import DataFetcher
-from data_processing import DataProcessor
-from arbitrage_detector import ArbitrageDetector
-import config
+from app.ingest_ws.exchange_setup import ExchangeSetup
+from app.ingest_ws.data_fetching import DataFetcher
+from app.ingest_ws.data_processing import DataProcessor
+from app.detector.core import ArbitrageDetector
+from app.config import settings as config
 import streamlit as st
 
 # Set up logging
